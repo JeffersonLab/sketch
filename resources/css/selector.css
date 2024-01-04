@@ -1,0 +1,12 @@
+fieldset {
+    border: none;
+}
+input[type="submit"] {
+    margin-top: 1em;
+}
+legend {
+    font-style: italic;
+}
+.footnote {
+    margin-top: 1em;
+}

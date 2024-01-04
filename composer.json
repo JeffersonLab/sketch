@@ -1,0 +1,16 @@
+{
+    "name": "jlab/sketch",
+    "type": "library",
+    "description": "CED Diagram Generator",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sketch\\": "WEB-INF/classes"
+        },
+        "files": [
+            "WEB-INF/functions/view-lib.inc"
+        ]
+    }
+}
