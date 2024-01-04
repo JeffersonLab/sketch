@@ -1,0 +1,11 @@
+services:
+  sketch:
+    image: php:8.1.27-apache-bullseye
+    hostname: sketch
+    container_name: sketch
+    ports:
+      - "80:80"
+    environment:
+      TZ: 'America/New_York'
+    volumes:
+      - ./:/var/www/html/sketch/
