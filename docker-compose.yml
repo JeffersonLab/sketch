@@ -11,4 +11,4 @@ services:
       SRM_SERVER_URL: 'https://ace.jlab.org/srm'
     volumes:
       - ./www:/var/www/html/sketch/
-      - ./sketch.conf:/etc/apache2/conf-available/sketch.conf
+      - ./sketch.conf:/etc/apache2/conf-enabled/sketch.conf
