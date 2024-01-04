@@ -16,7 +16,7 @@ A PHP web app for visualizing accelerator zones at Jefferson Lab.
 ---
 
 ## Overview
-The sketch app provides a diagram of accelerator zone elements in relation to each other following s-coordinate order for quick at-a-glance understanding of zone layout.   The sketch app is is integrated into the CEBAF Element Database (CED) web interface and can optionally link to the [System Readiness Manager (SRM)](https://github.com/JeffersonLab/srm) components.
+The sketch app provides a diagram of accelerator zone elements in relation to each other following s-coordinate order for quick at-a-glance understanding of zone layout.   The sketch app is is integrated into the [CEBAF Element Database (CED)](https://cebaf.jlab.org/ced/) and related LED/UED web interfaces and can optionally link to the [System Readiness Manager (SRM)](https://github.com/JeffersonLab/srm) components.
 
 ## Quick Start with Compose
 1. Grab project
