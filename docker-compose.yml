@@ -10,4 +10,5 @@ services:
       DEFAULT_ELEMENT_DATABASE_URL: 'https://cebaf.jlab.org/ced'
       SRM_SERVER_URL: 'https://ace.jlab.org/srm'
     volumes:
-      - ./:/var/www/html/sketch/
+      - ./www:/var/www/html/sketch/
+      - ./sketch.conf:/etc/apache2/conf-available/sketch.conf

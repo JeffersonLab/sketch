@@ -11,10 +11,10 @@ require $scriptdir . '/../includes/top.inc';
                 <ul class="key-value-list">
                     <li>
                         <div class="li-key">
-                            <label>CED Hostname</label>
+                            <label>Element Database URL</label>
                         </div>
                         <div class="li-value">
-                            <input name="hostname" value="ced.acc.jlab.org" type="text"/>
+                            <input name="hostname" value="<?php echo getenv("DEFAULT_ELEMENT_DATABASE_URL") ? getenv("DEFAULT_ELEMENT_DATABASE_URL") : '' ; ?>" type="text"/>
                         </div>
                     </li>
                     <li>
@@ -120,7 +120,7 @@ require $scriptdir . '/../includes/top.inc';
                     </li>
                     <li>
                         <div class="li-key">
-                            <label>Link to CED/LED</label>
+                            <label>Link to Element Database (else defaults to SRM links)</label>
                         </div>
                         <div class="li-value">
                             <input name="link" value="Y" type="checkbox"/>

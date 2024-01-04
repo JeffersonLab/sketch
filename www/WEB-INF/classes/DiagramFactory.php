@@ -294,7 +294,7 @@ class DiagramFactory {
     }
 
     private function loadZoneHierarchyFromJson($zoneName, $workspaceName) {
-        $url = "https://" . $this->cedHostname . "/zones/" . $zoneName . "?out=json&p=NameAlias,SegMask,Unpowered,ModeledAs,S";
+        $url = $this->cedHostname . "/zones/" . $zoneName . "?out=json&p=NameAlias,SegMask,Unpowered,ModeledAs,S";
 
         if($workspaceName !== null) {
             $url = $url . "&wrkspc=" . $workspaceName;

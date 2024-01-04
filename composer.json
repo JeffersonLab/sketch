@@ -3,14 +3,14 @@
     "type": "library",
     "description": "CED Diagram Generator",
     "require": {
-        "php": "^5.3.3 || ^7.0"
+        "php": "^8.1"
     },
     "autoload": {
         "psr-4": {
-            "sketch\\": "WEB-INF/classes"
+            "sketch\\": "www/WEB-INF/classes"
         },
         "files": [
-            "WEB-INF/functions/view-lib.inc"
+            "www/WEB-INF/functions/view-lib.inc"
         ]
     }
 }
