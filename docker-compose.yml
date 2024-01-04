@@ -7,5 +7,7 @@ services:
       - "80:80"
     environment:
       TZ: 'America/New_York'
+      DEFAULT_ELEMENT_DATABASE_URL: 'https://cebaf.jlab.org/ced'
+      SRM_SERVER_URL: 'https://ace.jlab.org/srm'
     volumes:
       - ./:/var/www/html/sketch/
