@@ -459,9 +459,9 @@ class Line {
             }
 
             if($this->isLinkCed) {
-                $url = "https://" . $this->cedHostname . '/elem/' . \sketch\encode($element->name);
+                $url = $this->cedHostname . '/elem/' . \sketch\encode($element->name);
              } else {
-                $url = "https://accweb.acc.jlab.org/hco/reports/component/detail?name=" . \sketch\encode($element->name);
+                $url = getenv("SRM_SERVER_URL") . "/reports/component/detail?name=" . \sketch\encode($element->name);
              }
 
             echo $ECHO_INDENT . '<tspan x="' . $lastColumnMinX . '" dy="' . $dy . '"><a title="S: ' . number_format($element->s, 2) . '" xlink:href="' . $url . '" target="_blank">' . $element->name . ($element->unpowered ? '*' : '') . '</a></tspan>' . PHP_EOL;
