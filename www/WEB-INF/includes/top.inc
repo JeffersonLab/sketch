@@ -26,7 +26,10 @@ $resourceVersion = 1;
     <body>
         <div id="page">
             <header>
-                <h1>Sketch</h1>
+                <h1>
+                    <span id="page-header-logo"></span>
+                    <span id="page-header-text">Sketch</span>
+                </h1>
                 <div id="auth">
                     <div id="username-container"><?php \sketch\out(array_key_exists('PHP_AUTH_USER', $_SERVER) ? $_SERVER['PHP_AUTH_USER'] : ""); ?></div>
                 </div>
