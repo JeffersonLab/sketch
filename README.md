@@ -7,12 +7,7 @@ A PHP web app for visualizing accelerator zones at Jefferson Lab.
 - [Overview](https://github.com/JeffersonLab/sketch#overview)
 - [Quick Start with Compose](https://github.com/JeffersonLab/sketch#quick-start-with-compose)
 - [Install](https://github.com/JeffersonLab/sketch#install)
-- [Configure](https://github.com/JeffersonLab/sketch#configure)
-- [Build](https://github.com/JeffersonLab/sketch#build)
-- [Develop](https://github.com/JeffersonLab/sketch#develop)
-- [Release](https://github.com/JeffersonLab/sketch#release)
-- [Deploy](https://github.com/JeffersonLab/sketch#deploy)
-- [See Also](https://github.com/JeffersonLab/sketch#see-also)   
+- [Configure](https://github.com/JeffersonLab/sketch#configure)  
 ---
 
 ## Overview
