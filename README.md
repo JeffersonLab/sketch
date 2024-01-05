@@ -29,7 +29,7 @@ http://localhost/sketch
 ```
 
 ## Install
-This app requires a PHP 8.1 interpreter and is developed to run in Apache httpd.
+This app requires a PHP 8.1 interpreter and is developed to run in Apache httpd.  Grab the source code at a given release tag and drop the `www` directory into an Apache httpd served directory.  [Configure](https://github.com/JeffersonLab/sketch#configure).
 
 ## Configure
 
@@ -39,3 +39,5 @@ Set the following runtime environment variables to configure:
 |------|-------------|
 | DEFAULT_ELEMENT_DATABASE_URL | What to pre-fill index form with (scheme, host, port, and path); example: `https://cebaf.jlab.org/ced` |
 | SRM_SERVER_URL | Scheme, host, port, and path of SRM; example: `https://ace.jlab.org/srm` |
+
+The Apache server must be configured as well.  Example configuration: [sketch.conf](https://github.com/JeffersonLab/sketch/blob/main/sketch.conf).
