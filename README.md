@@ -37,7 +37,7 @@ Set the following runtime environment variables to configure:
 
 | Name | Description |
 |------|-------------|
-| DEFAULT_ELEMENT_DATABASE_URL | What to pre-fill index form with (scheme, host, port, and path); example: `https://cebaf.jlab.org/ced` |
+| DEFAULT_ELEMENT_DATABASE_URL | What to pre-fill index form with (scheme, host, port, and path); example: `https://ace.jlab.org/ced` |
 | SRM_SERVER_URL | Scheme, host, port, and path of SRM; example: `https://ace.jlab.org/srm` |
 
 The Apache server must be configured as well.  Example configuration: [sketch.conf](https://github.com/JeffersonLab/sketch/blob/main/sketch.conf).
